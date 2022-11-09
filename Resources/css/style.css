@@ -5,25 +5,95 @@
     background-color: #ed8a63;
     }
 
+    body {
+        width:90%;
+    }
+
     h1 {
-    font-size: 2.5rem;
+    font-size: 60px;
     color: #3a4660;
     font-weight: 600;
+    padding: 5px 0;
+    text-align: center;
     }
     
     h2 {
-    font-size: 2rem;
+    font-size: 6vw;
     color: #845007;
+    padding: 5px 0;
+    text-align: center;
     }
     
     h3 {
     font-size: 1.5rem;
     color: #3a4660;
+    padding: 5px 0;
+    text-align: center;
+    }
+
+    h4 {
+        font-size: 50px;
+        padding: 5px;
+        padding-bottom: 20px;
+        text-align: center;
+        border: 2px;
+        margin: 30px;
+        color: #3a4660;
     }
     
+    nav {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
     a {
     background-color: #3a4660;
     color: #c9af98;
     text-decoration: none;
-    padding: 5px;
+    padding: 20px;
+    border: 5px outset;
+    border-radius: 50%;
+    transition-duration: .4s;
+    margin:5px;
+    text-align: center;
+    }
+
+    a:hover {
+       background-color: #845007;
+       border: 2px outset #3a4660;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    ol,
+    ul {
+        padding-left: 40px;
+    }
+
+    ol li {
+        list-style-type:  decimal;
+        padding: 10px;
+    }
+
+    ol li:hover {
+        border: 5px outset #3a4660;
+    }
+
+    ul li {
+        list-style-type: circle;
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+    
+    #Pancake {
+        padding-top: 5px;
+    }
+
+    .AREA {
+        border-bottom: 5px solid #3a4660;
+        padding: 20px;
+        margin: 30px;
     }
